@@ -10,6 +10,8 @@ body {
     font-family: "Iceland";
     background: url("./images/space_moon.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* text: hangman */
@@ -106,6 +108,7 @@ a {
 
 /* start game button */
 #start-game {
+    display: block;
     width: 100px;
     height: 50px;
     border: 2px solid blue;
@@ -114,7 +117,7 @@ a {
     background-color: azure;
     cursor: pointer;
     transition: 1s;
-    margin-left: 445px;
+    margin: auto;
     margin-bottom: 40px;
 }
 
