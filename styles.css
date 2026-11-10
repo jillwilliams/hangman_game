@@ -142,7 +142,7 @@ a {
     /* start game button */
     #start-game {
         width: 200px;
-        height: 50px;
+        height: 70px;
         font-size: 25px;
         display: block;
         margin: 10px auto;
@@ -162,4 +162,10 @@ a {
         margin-bottom: 50px;
         gap: 40px;
     }
+    /* alphabet letters */
+li {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+}
 }
