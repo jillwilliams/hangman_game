@@ -144,9 +144,9 @@ a {
 @media (max-width: 768px) {
     /* start game button */
     #start-game {
-        width: 200px;
+        width: 220px;
         height: 70px;
-        font-size: 25px;
+        font-size: 30px;
         display: block;
         margin: 10px auto;
         margin-bottom: 30px;
@@ -155,7 +155,7 @@ a {
     .output-word {
         margin-left: 20px;
         margin-top: 50px;
-        font-size: 50px;
+        font-size: 70px;
     }
     /* alphabet letters */
     ul {
@@ -167,8 +167,8 @@ a {
     }
     /* alphabet letters */
 li {
-    width: 60px;
-    height: 60px;
-    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
 }
 }
