@@ -8,7 +8,7 @@ const imagesEl = document.getElementById("myImage");
 
 const images = ["images/hangman0.png", "images/hangman1.png", "images/hangman2.png", "images/hangman3.png", "images/hangman4.png", "images/hangman5.png", "images/hangman6.png"];
 
-const gameWords = ['pluto', 'saturn', 'uranus', 'neptune', 'mercury', 'venus', 'earth', 'mars', 'jupiter'];
+const gameWords = ['pluto', 'saturn', 'uranus', 'neptune', 'mercury', 'venus', 'earth', 'mars', 'jupiter', 'nebula', 'moon', 'orian', 'stars', 'milkyway', 'space'];
 let currentWord = '';
 let guessedLetters = [];
 let lives = 6;
