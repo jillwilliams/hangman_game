@@ -19,14 +19,14 @@ body {
     text-align: center;
     margin: 20px 50px;
     margin-bottom: 10px;
-    font-size: 45px;
+    font-size: 50px;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
 
 /* text: outerspace */
 .title h3 {
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     text-shadow: 1px 1px 1px black;
     margin-bottom: 25px;
@@ -71,14 +71,14 @@ ul {
 li {
     border: 2px solid white;
     padding: 15px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 /* remove underline from letters */
@@ -89,7 +89,8 @@ a {
 
 /* hangman images */
 .gameboard img {
-    margin-left: 100px;
+    margin-left: 400px;
+    width: 300px;
 }
 
 /* noose and spaces */
@@ -100,17 +101,18 @@ a {
 /* ouput word lines */
 .lines {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     color: black;
+    margin-left: 100px;
 }
 
 /* start game button */
 #start-game {
     display: block;
-    width: 100px;
-    height: 50px;
+    width: 160px;
+    height: 80px;
     border: 2px solid blue;
     color: blue;
     border-radius: 50px;
@@ -131,14 +133,14 @@ a {
 /* the word to be guessed */
 .output-word {
     width: 300px;
-    margin-left: 140px;
+    margin-left: 160px;
     margin-top: 50px;
     gap: 30px;
     display: flex;
     align-content: center;
     justify-content: space-between;
     color: black;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 @media (max-width: 768px) {
