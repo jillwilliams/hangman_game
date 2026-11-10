@@ -8,30 +8,42 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: "Iceland";
+    background: url("./images/space_moon.png");
 }
 
 /* text: hangman */
 .title h2 {
     text-align: center;
-    margin: 50px;
-    margin-bottom: 30px;
+    margin: 20px 50px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* text: outerspace */
+.title h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 25px;
 }
 
 /* title div */
 .title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
+/* letters in the gameboard */
 .alphabet-letters {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     flex-direction: row;
 }
 
+/* alphabet letters a */
 .alphabet-nav {
     display: flex;
     justify-content: center;
@@ -39,6 +51,7 @@ body {
     flex-direction: row;
 }
 
+/* alphabet letters */
 ul {
     display: flex;
     justify-content: space-around;
@@ -46,13 +59,15 @@ ul {
     list-style-type: none;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 100px;
+    margin-top: 60px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
+/* alphabet letters */
 li {
-    border: 2px solid black;
-    padding: 10px;
+    border: 2px solid white;
+    padding: 15px;
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -60,6 +75,13 @@ li {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-size: 35px;
+}
+
+/* remove underline from letters */
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* hangman images */
@@ -78,6 +100,7 @@ li {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 /* start game button */
@@ -95,19 +118,43 @@ li {
 }
 
 #start-game:hover {
-    background-color: orangered;
-    color: white;
+    background-color: lightblue;
+    color: black;
     border: 2px white solid;
     transition: 1s;
 }
 
+/* the word to be guessed */
 .output-word {
     width: 300px;
-    margin-left: 160px;
+    margin-left: 140px;
+    margin-top: 50px;
     gap: 30px;
     display: flex;
     align-content: center;
     justify-content: space-between;
-    color: blue;
+    color: black;
     font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    /* start game button */
+    #start-game {
+        display: block;
+        margin: 10px auto;
+        margin-bottom: 30px;
+    }
+    /* the word to be guessed */
+    .output-word {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    /* alphabet letters */
+    ul {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        gap: 40px;
+    }
 }
